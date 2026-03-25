@@ -1,4 +1,4 @@
-import { obterConteudo } from '@/utils/banco';
+import { obterConteudo } from '@/data/dataStore';
 
 export default function controlador(req: any, res: any) {
   if (req.method !== 'GET') {
