@@ -1,4 +1,4 @@
-import { obterConteudo, gravarInformacoes } from "@/utils/banco";
+import { obterConteudo, gravarInformacoes } from "@/data/dataStore";
 
 export default function tratadorDevolucao(req: any, res: any) {
   if (req.method !== "POST") {

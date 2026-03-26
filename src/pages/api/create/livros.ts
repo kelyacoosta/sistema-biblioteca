@@ -1,4 +1,4 @@
-import { gerarNovoId, obterConteudo, gravarInformacoes } from "@/utils/banco";
+import { gerarNovoId, obterConteudo, gravarInformacoes } from "@/data/dataStore";
 
 export default function controlador(req: any, res: any) {
   if (req.method !== "POST") {
